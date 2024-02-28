@@ -1,0 +1,51 @@
+body{
+  margin: 0px;
+  padding: 0px;
+
+}
+.frm{
+ 
+}
+.box{
+  height: 500px;
+  width: 715px;
+  border: solid 2px black;
+  margin-left: 440px;
+  align-items: center;
+  background-color: yellow;
+  
+}
+.title{
+  align-items: center;
+  text-align: center;
+  margin-left: 24px;
+  margin-top: 100px;
+}
+#txtbox{
+  height: 30px;
+  min-width: 60px;
+  width: 300px;
+  margin-left: 220px;
+  margin-top: 30px;
+  text-align: center;
+
+}
+.btn{
+  margin-left: 260px;
+  margin-top: 30px;
+  height: 50px;
+  
+  width: 90px;
+  padding: 5px 5px ;
+
+}
+.btn1{
+  /* margin-left: 200px; */
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 50px;
+  
+  width: 90px;
+  text-align: center;
+  padding-left: 5px;
+}

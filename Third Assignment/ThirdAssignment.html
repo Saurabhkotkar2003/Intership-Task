@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="first.css">
+</head>
+<body>
+  <div class="frm">
+    <div class="box">
+     
+        <h1 class="title"> Tempreture Convertor</h1>
+        <br>
+     
+      <input  id="txtbox" type="text" placeholder="Enter the Tempreture in celcius" ><br>
+      <button class="btn" onclick="calculate()">Faranite</button>
+      <button class="btn1" onclick="Reset()" >clear</button>
+      
+    </div>
+  </div>
+  <script>
+  function Reset(){
+      let setClear='';
+      console.log('saurabh')
+      document.querySelector("#txtbox").value=setClear;
+  
+
+    }
+   
+   
+    let display='';
+    let calculate=()=>{
+      let degree=document.getElementById("txtbox").value;
+   display=degree*9/5+32;
+    console.log(display);
+   // console.log(display);
+   document.querySelector("#txtbox").value=display;
+
+   
+  
+
+    }
+    
+
+  </script>
+  
+</body>
+</html>
